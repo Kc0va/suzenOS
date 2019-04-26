@@ -16,6 +16,10 @@
 
 <li>Задание №2</li>
 
-6) Копируем таблицу разделов со старого диска на новый: `sfdisk -d /dev/sda | sfdisk /dev/sdb`
+6) Копируем таблицу разделов со старого диска на новый:`sfdisk -d /dev/sda | sfdisk /dev/sdb`
 
 ![TABLICA](https://github.com/Kc0va/suzenOS/blob/master/laba%202/images/TABLICA.png?raw=true)
+
+ Добавляем в рейд-массив новый диск:`mdadm —manage /dev/md0 —add /dev/sdb`
+
+![RAID2](https://github.com/Kc0va/suzenOS/blob/master/laba%202/images/RAID2.png?raw=true)
