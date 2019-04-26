@@ -4,5 +4,5 @@
 
 5) Смотрим диски в системе: 2 hhd диска sda(ssd1) и sdb(ssd2).
 
-![disks](https://github.com/Kc0va/suzenOS/tree/master/laba%202/images/пункт%205.png)
+![disks](https://github.com/Kc0va/suzenOS/blob/master/laba%202/images/%D0%BF%D1%83%D0%BD%D0%BA%D1%82%205.png?raw=true)
 
