@@ -2,13 +2,13 @@
 <u>ББСО-02-17</u>
 <h3>Список решенных заданий:<h3>
 <ul>
-<li>Suzen2</li>
-<li>Suzen3</li>
-<li>Suzen16</li>
-<li>Suzen17</li>
-<li>Suzen18</li>
-<li>Suzen20</li>
-<li>Suzen22</li>
-<li>Suzen23</li>
-<li>Suzen24</li>
-<li>Suzen25</li>
+<u>Suzen2</u>
+<u>Suzen3</u>
+<u>Suzen16</u>
+<u>Suzen17</u>
+<u>Suzen18</u>
+<u>Suzen20</u>
+<u>Suzen22</u>
+<u>Suzen23</u>
+<u>Suzen24</u>
+<u>Suzen25</u>
