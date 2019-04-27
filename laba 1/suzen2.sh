@@ -1,4 +1,2 @@
 #!/bin/bash
-ls -l
-echo "Flag is:"
-cat :~/
+Flag="$(cat :~/)"; echo "{$Flag}"
