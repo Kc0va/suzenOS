@@ -86,5 +86,11 @@ LV var,log,root находятся на диске sda:
 
 ![ssd4](https://github.com/Kc0va/suzenOS/blob/master/laba%202/images/ssd4.png?raw=true) 
 
+Получили sda2 и sdb2 разделы, которые имеют размер > чем размер RAID-устройство.
+
+16) Расширяем размер RAID 
+
+![R](https://github.com/Kc0va/suzenOS/blob/master/laba%202/images/R.png?raw=true) 
+
 
 
