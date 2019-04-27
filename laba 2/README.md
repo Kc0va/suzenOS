@@ -102,3 +102,11 @@ LV var,log,root находятся на диске sda:
 
 ![var2](https://github.com/Kc0va/suzenOS/blob/master/laba%202/images/var2.png?raw=true) 
 
+20) Переносим данные логов со старого раздела на новый:
+
+![log](https://github.com/Kc0va/suzenOS/blob/master/laba%202/images/log.png?raw=true) 
+
+21) Правим `/etc/fstab`, поправляем устройство `system-log` на `data-var_log`:
+
+![etc](https://github.com/Kc0va/suzenOS/blob/master/laba%202/images/etc.png?raw=true) 
+
