@@ -76,3 +76,15 @@ LV var,log,root находятся на диске sda:
 
 Информация о группе физических томов: было ![3](https://github.com/Kc0va/suzenOS/blob/master/laba%202/images/3.png?raw=true)    стало ![4](https://github.com/Kc0va/suzenOS/blob/master/laba%202/images/4.png?raw=true)
 
+13) Сначала изменили размер второго раздела диска ssd5 (sdb), затем перечитали таблицу разделов и провели результат:
+
+![ssd5](https://github.com/Kc0va/suzenOS/blob/master/laba%202/images/ssd5.png?raw=true) 
+
+Добавляем новый диск к текущему RAID-массиву, расширяем количество дисков в нашем массиве до 2-х штук.
+
+14-15) Сначала увеличили размер раздела на диске ssd4 (sda), а затем перечитали таблицу разделов и проверили результат:
+
+![ssd4](https://github.com/Kc0va/suzenOS/blob/master/laba%202/images/ssd4.png?raw=true) 
+
+
+
