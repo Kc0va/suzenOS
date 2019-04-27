@@ -36,3 +36,6 @@ Cинхронизация разделов, не входящих в RAID, ко�
 
 ![TABLICA2](https://github.com/Kc0va/suzenOS/blob/master/laba%202/images/TABLICA2.png?raw=true)
 
+При выводе мы замечаем, что в новом диске sdb появились разделы: sdb1, sdb2
+
+![sdb](https://github.com/Kc0va/suzenOS/blob/master/laba%202/images/sdb.png?raw=true)
