@@ -20,7 +20,7 @@
 
 ![TABLICA](https://github.com/Kc0va/suzenOS/blob/master/laba%202/images/TABLICA.png?raw=true)
 
- Добавляем в рейд-массив новый диск: `mdadm —manage /dev/md0 —add /dev/sdb`:
+ Добавляем в RAID-массив новый диск: `mdadm —manage /dev/md0 —add /dev/sdb`:
 
 ![RAID2](https://github.com/Kc0va/suzenOS/blob/master/laba%202/images/RAID2.png?raw=true)
 
@@ -42,8 +42,25 @@ Cинхронизация разделов, не входящих в RAID, ко�
 
 Устанавливаем загрузчик на новый диск sdb: `grub-install /dev/sdb` - это загрузчик, который загружает нашу операционную систему, и он нам нужен на новом диске после удаления старого.
 
-В итоге у нас установлен новый рейд-массив md63, проверяем при помощи команды `cat /proc/mdstat`:
+В итоге у нас установлен новый RAID-массив md63, проверяем при помощи команды `cat /proc/mdstat`:
 
 ![md63](https://github.com/Kc0va/suzenOS/blob/master/laba%202/images/md63.png?raw=true)
 
 ![md632](https://github.com/Kc0va/suzenOS/blob/master/laba%202/images/md632.png?raw=true)
+
+6) Настраиваем LVM(Logical Volume Manager)
+
+Создаём новый физический том, включив в него ранее созданный RAID-массив: `pvcreate /dev/md63`
+
+![md633](https://github.com/Kc0va/suzenOS/blob/master/laba%202/images/md633.png?raw=true)
+
+Увеличим размер Volume Group system: `vgextend system /dev/sda`
+
+![VG](https://github.com/Kc0va/suzenOS/blob/master/laba%202/images/VG.png?raw=true)
+
+LV var,log,root находятся на диске sda:
+
+![LV](https://github.com/Kc0va/suzenOS/blob/master/laba%202/images/LV.png?raw=true)
+
+Выполнили перемещение данных со старого диска на новый
+
