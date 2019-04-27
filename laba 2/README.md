@@ -72,7 +72,7 @@ LV var,log,root находятся на диске sda:
 
 Изменили Volume Group, удалив из него диск старого raid:
 
-Было ![1](https://github.com/Kc0va/suzenOS/blob/master/laba%202/images/1.png?raw=true)    стало ![2](https://github.com/Kc0va/suzenOS/blob/master/laba%202/images/2.png?raw=true)
+Информация о физическом томе: было ![1](https://github.com/Kc0va/suzenOS/blob/master/laba%202/images/1.png?raw=true)    стало ![2](https://github.com/Kc0va/suzenOS/blob/master/laba%202/images/2.png?raw=true)
 
-Было ![3](https://github.com/Kc0va/suzenOS/blob/master/laba%202/images/3.png?raw=true)    стало ![4](https://github.com/Kc0va/suzenOS/blob/master/laba%202/images/4.png?raw=true)
+Информация о группе физических томов: было ![3](https://github.com/Kc0va/suzenOS/blob/master/laba%202/images/3.png?raw=true)    стало ![4](https://github.com/Kc0va/suzenOS/blob/master/laba%202/images/4.png?raw=true)
 
