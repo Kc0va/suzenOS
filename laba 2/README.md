@@ -98,3 +98,7 @@ LV var,log,root находятся на диске sda:
 
 ![done](https://github.com/Kc0va/suzenOS/blob/master/laba%202/images/done.png?raw=true) 
 
+19) Перемещаем `/var/log` на новые диски, для этого создаем новый RAID-массив, создаём логический том:
+
+![var2](https://github.com/Kc0va/suzenOS/blob/master/laba%202/images/var2.png?raw=true) 
+
