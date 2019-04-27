@@ -62,5 +62,15 @@ LV var,log,root находятся на диске sda:
 
 ![LV](https://github.com/Kc0va/suzenOS/blob/master/laba%202/images/LV.png?raw=true)
 
-Выполнили перемещение данных со старого диска на новый
+Выполнили перемещение данных со старого диска на новый:
+
+![var](https://github.com/Kc0va/suzenOS/blob/master/laba%202/images/var.png?raw=true)
+
+Теперь все данные находятся на одном диске:
+
+![sdb2md63](https://github.com/Kc0va/suzenOS/blob/master/laba%202/images/sdb2md63.png?raw=true)
+
+Изменили Volume Group, удалив из него диск старого raid:
+***
+Было ![1](https://github.com/Kc0va/suzenOS/blob/master/laba%202/images/1.png?raw=true) стало ![2](https://github.com/Kc0va/suzenOS/blob/master/laba%202/images/2.png?raw=true)
 
