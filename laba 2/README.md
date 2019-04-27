@@ -110,3 +110,13 @@ LV var,log,root находятся на диске sda:
 
 ![etc](https://github.com/Kc0va/suzenOS/blob/master/laba%202/images/etc.png?raw=true) 
 
+22) Изменяем таблицу разделов командой: `resize2fs`
+
+![resize](https://github.com/Kc0va/suzenOS/blob/master/laba%202/images/resize.png?raw=true) 
+
+Завершили установку: 
+
+![final](https://github.com/Kc0va/suzenOS/blob/master/laba%202/images/final.png?raw=true) 
+
+Что было сделано: замена дисков на лету, с добавлением новых дисков и переносом разделов.
+
