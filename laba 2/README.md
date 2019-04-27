@@ -92,5 +92,9 @@ LV var,log,root находятся на диске sda:
 
 ![R](https://github.com/Kc0va/suzenOS/blob/master/laba%202/images/R.png?raw=true) 
 
+Увеличили объём памяти ssd4, ssd5.
 
+18) Завершили миграцию основного массива на новые диски, работа с ssd4 и ssd5 закончена.
+
+![done](https://github.com/Kc0va/suzenOS/blob/master/laba%202/images/done.png?raw=true) 
 
