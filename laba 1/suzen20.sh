@@ -2,5 +2,5 @@
 cd ..
 rm -r john
 mkdir john
-ls /home/suzen
+ls /home/suze
 
