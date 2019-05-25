@@ -6,7 +6,7 @@
 
 ![disks](https://github.com/Kc0va/suzenOS/blob/master/laba%202/images/%D0%BF%D1%83%D0%BD%D0%BA%D1%82%205.png?raw=true)
 
-Затем просматриваем, что RAID-массив проинициализирован корректно `cat /proc/mdstat`, в этом файле отражается текущее состояние RAID-массива.
+Затем просматриваем, что RAID-массив проинициализирован корректно: `cat /proc/mdstat`, в этом файле отражается текущее состояние RAID-массива.
 
 ![RAID](https://github.com/Kc0va/suzenOS/blob/master/laba%202/images/RAID.png?raw=true)
 
