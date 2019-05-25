@@ -1,6 +1,6 @@
 #!/bin/bash
-cd ..
-rm -r john
-mkdir john
-ls /home/suzen
+cd ~john/
+rm -rf ./*
+cd ~suzen/
+echo "Flag is: $(ls -a | grep -o '[0-9a-zA-Z]\{28\}')"
 

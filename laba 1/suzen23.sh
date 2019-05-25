@@ -8,4 +8,4 @@ mv nginx5.log nginx5.log.back
 cd ..
 mv *log /home/suzen/destination
 cd ..
-ls -a
+echo "Flag is: $(ls -a | grep -o '[0-9a-zA-Z]\{28\}')"
